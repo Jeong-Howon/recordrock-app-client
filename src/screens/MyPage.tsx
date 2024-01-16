@@ -11,7 +11,7 @@ const MyPage: React.FC<DetailsProps> = ({ navigation }) => {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Details Screen</Text>
       <Button
-        title="Go back to Home"
+        title="Go back to Main"
         onPress={() => navigation(-1)}
       />
     </View>
